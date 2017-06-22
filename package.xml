@@ -11,8 +11,6 @@
 
   <url type="website">http://ros.org/wiki/urdf</url>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
   <depend>boost</depend>
   <depend>console_bridge</depend>
   <depend>tinyxml</depend>
