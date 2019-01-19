@@ -43,6 +43,9 @@ write_basic_config_version_file(
   VERSION "${URDF_VERSION}"
   COMPATIBILITY SameMajorVersion)
 install(FILES
+  package.xml
+  DESTINATION share/${PROJECT_NAME})
+install(FILES
   "${CMAKE_BINARY_DIR}/${cmake_conf_file}"
   "${CMAKE_BINARY_DIR}/${cmake_conf_version_file}"
   DESTINATION ${CMAKE_CONFIG_INSTALL_DIR} COMPONENT cmake)
